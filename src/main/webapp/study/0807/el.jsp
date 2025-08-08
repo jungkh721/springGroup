@@ -73,7 +73,7 @@
   <div>
     <form name="myform" method="post" action="${pageContext.request.contextPath}/j0807/ELtest">
       <div>성명
-        <input type="text" name="name2" value="홍길동" class="form-control"/>
+        <input type="text" name="name2" value="이기자" class="form-control"/>
       </div>
 	  	<div class="mb-3">직업
 	  	  <select name="job" class="form-control">

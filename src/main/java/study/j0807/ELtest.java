@@ -17,11 +17,10 @@ public class ELtest extends HttpServlet {
 		response.setContentType("text/html; setChar=utf-8");
 		request.setCharacterEncoding("utf-8");
 		
-		String name = request.getParameter("name2")==null ? "" : request.getParameter("name");
+		String name2 = request.getParameter("name2")==null ? "" : request.getParameter("name2");
 		String job = request.getParameter("job")==null ? "" : request.getParameter("job");
-		
-		
-		request.setAttribute("name2", name);
+
+		request.setAttribute("name2", name2);
 		request.setAttribute("job", job);
 		
 		String viewPage = "/study/0807/el.jsp";
