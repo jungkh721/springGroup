@@ -21,3 +21,5 @@ insert into friend values(default,'admin','1234','관지자','홍길동',33,'남
 
 
 select *from friend;
+
+update friend set pwd ='4146042278' where idx=1;
