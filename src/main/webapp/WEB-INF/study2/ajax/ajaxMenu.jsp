@@ -115,6 +115,8 @@
       <input type="button" value="비동기식(fetch)" onclick="idCheck3()" class="btn btn-info me-2"/>
       <input type="button" value="비동기식(ajax1)" onclick="idCheck4()" class="btn btn-secondary me-2"/>
       <input type="button" value="비동기식(ajax2)" onclick="idCheck5()" class="btn btn-warning me-2"/>
+      <input type="button" value="새로고침" onclick="location.href='AjaxMenu';" class="btn btn-danger me-2"/>
+      <input type="button" value="돌아가기" onclick="location.href='${ctp}/study2/TestMenu';" class="btn btn-dark me-2"/>
     </div>
   </form>
   <hr/>
@@ -128,7 +130,7 @@
     
     * 프론트 프로그램에서의 비동기식
 	    - 바닐라 자바스크립트의 비동기식 : 브라우저의 XMLHttpRequest
-	    - ECMA6 자바스크립트의 비동기식 : 콜백함수, Promise, Promise를 활용한 async/await, fatch()방식
+	    - ECMA6 자바스크립트의 비동기식 : 콜백함수, Promise, Promise를 활용한 async/await, fetch()방식
 	  
 	  <h4>AJAX</h4>
 	  ☞ AJAX(Asynchronous Javascript And XML)

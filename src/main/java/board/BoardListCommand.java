@@ -17,7 +17,7 @@ public class BoardListCommand implements CommonInterface {
 		
 		int pag = request.getParameter("pag")==null ? 1 : Integer.parseInt(request.getParameter("pag"));
 		int pageSize = request.getParameter("pageSize")==null ? 10 : Integer.parseInt(request.getParameter("pageSize"));
-		int totRecCnt = dao.getTotRencnt();
+		int totRecCnt = dao.getTotRecCnt();
 		int totPage = (int) Math.ceil((double)totRecCnt / pageSize);
 		int startIndexNo = (pag - 1) * pageSize;
 		int curScrStartNo = totRecCnt - startIndexNo;

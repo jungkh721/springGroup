@@ -5,7 +5,7 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="http://192.168.50.56:9090/springGroup">HOME</a>
+        <a class="nav-link active" href="http://192.168.56.20:9090/springGroup">HOME</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="GuestList.gu">Guest</a>
@@ -15,12 +15,14 @@
 	        <a class="nav-link" href="BoardList.bo">Board</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">PDS</a>
+	        <a class="nav-link" href="Pds.pds">PDS</a>
 	      </li>
 	      <li class="nav-item">
 	        <div class="dropdown">
 					  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Study</button>
 					  <ul class="dropdown-menu">
+					  	
+					    <li><a class="dropdown-item" href="${ctp}/login/friendInfo">회원정보</a></li>
 					    <li><a class="dropdown-item" href="${ctp}/study2/ajax/friend/FriendMain">AJAX연습</a></li>
 					    <li><a class="dropdown-item" href="${ctp}/study2/mapping/Directory">디렉토리매핑연습</a></li>
 					    <li><a class="dropdown-item" href="${ctp}/study2/mapping/Extension.do">확장자매핑연습1</a></li>
@@ -28,6 +30,8 @@
 					    <li><a class="dropdown-item" href="${ctp}/study2/mapping/Extension3.test3">확장자매핑연습3</a></li>
 					    <li><a class="dropdown-item" href="${ctp}/study2/mapping/Extension4.test4">확장자매핑연습4</a></li>
 					    <li><a class="dropdown-item" href="${ctp}/study2/mapping/Extension5.test5">확장자매핑연습5</a></li>
+					    <li><a class="dropdown-item" href="${ctp}/study2/uuid/Uuid.st">UUID연습</a></li>
+					    <li><a class="dropdown-item" href="${ctp}/study2/pdsTest/PdsTest.st">file업로드연습</a></li>
 					  </ul>
 					</div>
 	      </li>
